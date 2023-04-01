@@ -1,3 +1,55 @@
 * {
-    background-color: aqua;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
+
+body { 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
+
+.top-view {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    border: solid black 2px;
+}
+.top-view > h1 {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+   
+}
+.top-view > p {
+    width: 20%;
+   
+}
+#modal-button {
+    padding: 1vh;
+    background-color: blue;
+    color: white
+
+}
+#close {
+    color: grey;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#modal {
+    border: solid black 2px;
+}
+
