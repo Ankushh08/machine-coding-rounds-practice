@@ -1,3 +1,19 @@
-* {
-    background-color: aqua;
-}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .star-container {
+    font-size: 40px;
+  }
+  
+  .star {
+    padding: 5px;
+    color: gray;
+    cursor: pointer;
+  }
+  
+  .star-filled {
+    color: #ffdf00;
+  }
