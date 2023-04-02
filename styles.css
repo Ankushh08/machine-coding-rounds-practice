@@ -1,0 +1,19 @@
+* { 
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+button {
+    padding: 2px;
+    margin: 5px;
+}
+
+.hide { 
+    display: none;
+}
+
+.comment {
+    display: relative;
+    left: 10%;
+}
